@@ -11,11 +11,13 @@ environment).
 
 Then you simply create a form in your ERB template with
 
+<pre>
 <code class="ruby">
 <% form_for @model, :builder => LabeledFormBuilder do |f| %>
   <%= f.text_field :name %>
   <%= f.text_area :description %>
 <% end %>
 </code>
+</pre>
 
 [labeled_form_builder.rb]: http://github.com/jjbuckley/rails_form_builders/raw/master/labeled_form_builder.rb 
